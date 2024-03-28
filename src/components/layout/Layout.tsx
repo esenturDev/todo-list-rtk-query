@@ -6,13 +6,12 @@ import Header from "./header/Header";
 
 export const Layout = () => {
 	return (
-		<div>
+		<div className={scss.layout}>
       <Header/>
       <main>
-
       <Routes>
-        <Route path="/home" element={	<NewTodoList />}/>
-        <Route path="/home/:id" element={<ItemId/>}/>
+        <Route path="/" element={	<NewTodoList />}/>
+        <Route path="/:id" element={<ItemId/>}/>
       </Routes>
       </main>
 		</div>

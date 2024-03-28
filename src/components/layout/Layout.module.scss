@@ -1,0 +1,12 @@
+.layout {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	// background-color: aliceblue;
+	main {
+		margin-top: 125px;
+	}
+	
+}

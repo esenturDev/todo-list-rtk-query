@@ -1,0 +1,21 @@
+.modalContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* прозрачный темный фон */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	// z-index: 50;
+	.modalContent {
+		background-color: #fafafb;
+		padding: 13px;
+		border-radius: 10px;
+		width: 17.6rem;
+		// height: 36.7rem;
+		height: auto;
+	}
+}
